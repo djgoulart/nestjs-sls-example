@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { hash } from 'bcrypt';
+import { hash } from 'bcryptjs';
 import { v4 as uuid } from 'uuid';
 
 import { User } from './schemas/user.schema';
